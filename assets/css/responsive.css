@@ -1,0 +1,205 @@
+/* MEDIA QUERIES FOR 576PX AND ABOVE */
+/* Only use the breakpoint necessary to your project */
+@media all and (max-width:425px) {
+}
+@media all and (min-width:576px) {}
+
+@media all and (min-width:768px) {
+    body{
+        background: var(--clr-bg-desktop);
+      }
+    .desktop{
+        display: block;
+    }
+    .hide{
+        display: flex!important;
+      }
+    .navbar{
+        background: var(--clr-bg-desktop)!important;
+      }
+      .profile-pic{
+        width: 76%;
+        height: 190px;
+      }
+      .icons{
+        display: flex;
+        flex-direction: column;
+        margin-top: 18%!important;
+      }
+      .side-number{
+        margin-top: 18%!important;
+        width: fit-content;
+      }
+      .mobile{
+          display: none;
+      }
+      .portfolio-description p, .portfolio-description a{
+        font-size: 12px;
+      }
+      .portfolio-2-img{
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(../images/portfolio2img.png);
+        height: auto;
+        background-repeat: no-repeat;
+      }
+      .portfolio-3-img{
+        height: auto;
+      }
+      .portfolio-4-img{
+        height: auto;
+      }
+      .portfolio-5-img{
+        height: auto;
+      }
+      .last-number, .resume-side-number{
+          display: none;
+      }
+      .resume-cards{
+        border-left: 4px solid var(--fc-secondary);
+      }
+      .resume-download{
+        writing-mode: tb-rl;
+        text-orientation: sideways-right;
+        transform: rotate(180deg);
+      }
+      .resume-download-btn{
+        color: var(--clr-bg-mobile);
+        background-color: var(--fc-secondary);
+        height: 100%;
+        transition: ease 0.8s all;
+       
+      }
+      .resume-download-btn:hover{
+        color: var(--fc-secondary);
+        background-color: #f6f2f1;
+        border: none;
+        box-shadow: var(--bs);
+       
+      }
+      .theme-toggler{
+        font-size: 36px;
+      }
+      
+}
+
+@media all and (min-width:992px) {
+    body{
+        font-size: var(--fs-p);
+      }
+    h1{
+        font-size: var(--fs-h1);
+      }
+      h2{
+        font-size: var(--fs-h2);
+      }
+      p{
+          font-size: var(--fs-p);
+      }
+      .ux{
+          font-size: 24px;
+      }
+      .profile-pic{
+        width: 76%;
+        height:230px;
+      }
+      .icons{
+        margin-top: 23%!important;
+        font-size: 48px;
+      }
+      .side-number{
+        margin-top: 23%!important;
+      }
+      .book-appeal p{
+        font-size: 36px;
+      }
+      .portfolio-description p, .portfolio-description a{
+        font-size: var(--fs-p);
+      }
+      .last-number, .resume-side-number{
+        display: block;
+    }
+     
+
+  /* FOOTER STARTS  */
+  .footer-icons a{
+    font-size: 36px;
+  }
+  /* FOOTER ENDS  */
+  
+}
+
+@media all and (min-width:1200px) {
+    .profile-pic{
+        width: 61%;
+        height: 250px;
+      }
+      .portfolio-description div{
+        margin: 5% 0;
+    }
+    .theme-toggler{
+        right: 4%;
+      }
+       /* CONTACT SECTION STARTS  */
+#contact .card-body{
+    padding:1.125rem;
+  }
+  #contact .card-body p{
+    font-size: 18px;
+  }
+  #contact .card-body .card-title{
+    font-size: 36px;
+  }
+  .contact-card{
+      padding: 1.125rem;
+  }
+
+  .contact-card-title{
+      font-size: 24px;
+  }
+  /* CONTACT SECTION ENDS  */
+}
+
+
+@media all and (min-width:1440px) { 
+    .profile-pic{
+        width: 50%;
+        height: 270px;
+      }
+      .icons{
+        margin-top: 16%!important;
+        font-size: 48px;
+      }
+      .side-number{
+        margin-top: 16%!important;
+      }
+      .book-appeal{
+          margin-top: 18%!important;
+          margin-left: 17%!important;
+      }
+      .book-appeal button{
+          margin-top: 5%!important;
+          margin-bottom: 20%!important;
+      }
+      .portfolio-numbers {
+          margin-left: 10%!important;
+      }
+      .portfolio-header {
+          margin-left: 5%!important;
+      }
+      .portfolio-headings, .portfolio-description{
+          margin-left: 20%!important;
+      }
+      .portfolio-headings{
+          margin-top: 3%!important ;
+          margin-bottom: 3%!important ;
+      }
+      .portfolio-description p{
+          margin-top: 5%!important ;
+          margin-bottom: 5%!important ;
+      }
+      .theme-toggler{
+        right: 5%;
+      }
+}
+
+@media all and (min-width:2560px) {
+}
