@@ -324,6 +324,7 @@ footer{
 
 /* DARK MODE  */
 .theme-toggler{
+  size: 36px;
   position: fixed;
   bottom: 3%;
   right: 3%;
