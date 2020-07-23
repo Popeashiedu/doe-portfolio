@@ -156,7 +156,7 @@ hr{
   
 }
 .p-right{
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(../images/bookshelf.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(../images/dummyportfolio.png);
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--clr-bg-mobile);
@@ -182,7 +182,7 @@ hr{
 }
 
 .portfolio-2-img{
-  background: url(../images/portfolio2img.jpg);
+  background: url(../images/dummyportfolio.png);
   height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -193,21 +193,21 @@ hr{
 }
 
 .portfolio-3-img{
-  background: url(../images/topically.jpg);
+  background: url(../images/dummyportfolio.png);
   height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--clr-bg-mobile);
 }
 .portfolio-4-img{
-  background: url(../images/portfolio4img.jpg);
+  background: url(../images/dummyportfolio.png);
   height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--clr-bg-mobile);
 }
 .portfolio-5-img{
-  background: url(../images/portfolio5img.jpg);
+  background: url(../images/dummyportfolio.png);
   height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;

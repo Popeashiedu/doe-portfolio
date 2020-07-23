@@ -37,7 +37,7 @@
         font-size: 12px;
       }
       .portfolio-2-img{
-        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(../images/portfolio2img.png);
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(../images/dummyportfolio2.png);
         height: auto;
         background-repeat: no-repeat;
       }
@@ -74,9 +74,6 @@
         border: none;
         box-shadow: var(--bs);
        
-      }
-      .theme-toggler{
-        font-size: 36px;
       }
       
 }
