@@ -37,7 +37,7 @@
         font-size: 12px;
       }
       .portfolio-2-img{
-        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(../images/portfolio2img.png);
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(../images/portfolio2img.jpg);
         height: auto;
         background-repeat: no-repeat;
       }
