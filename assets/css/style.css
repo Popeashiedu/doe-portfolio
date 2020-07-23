@@ -232,6 +232,7 @@ hr{
 }
 .card:hover{
   box-shadow: var(--bs);
+  transform: scale(1.05);
 }
 #resume .card{
   border-left: 4px solid var(--fc-secondary);
