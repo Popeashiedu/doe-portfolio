@@ -48,11 +48,7 @@ p{
 .hide{
   display: none!important;
 }
-/* .active{
-  background-color: #EB7188;
-  box-shadow: -8px 3px 5px 0px rgba(0,0,0,0.75);
-  padding: 0 1rem;
-} */
+
 /* NAVBAR STARTS  */
 /* .navbar{
   background: var(--clr-bg-mobile)!important;
@@ -73,15 +69,18 @@ p{
 .nav-link a:hover{
   color: var(--fc-secondary);
 }
-/* .active{
+.active{
   
-} */
+}
 
 /* NAVBAR ENDS  */
 
 /* HEADER STARTS  */
 .header-container{
   background-color: var(--fc-secondary);
+}
+.profile-pic{
+  padding-left: 0;
 }
 .h1-span{
   color: var(--fc-secondary);
@@ -720,7 +719,4 @@ z-index: 99999;
 /* PINK NAVBAR  */
 .pink-navbar{
   background-color: var(--fc-secondary);
-}
-.pink-navlink{
-  color: var(--fc-primary)!important;
 }
