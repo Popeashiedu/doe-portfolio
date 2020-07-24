@@ -319,8 +319,8 @@ footer{
   -ms-transform-origin: 50% 50%;
 }
 .up-arrow-div{
-  background-color: var(--clr-bg-mobile);
-  border-radius: 6px;
+  background-color: #4F4F4F;
+  border-radius: 10px;
   width: 40px;
   height: 40px;
   animation: bounce linear 1.5s;
