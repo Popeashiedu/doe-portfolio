@@ -149,6 +149,7 @@ p{
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
   color: var(--fc-primary);
+  font-size: 36px;
   
 }
 /* HEADER ENDS  */

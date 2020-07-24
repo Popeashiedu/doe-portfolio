@@ -1,6 +1,6 @@
-// navbarToggler = document.querySelector('.navbar-toggler');
-// navbar = document.querySelector('.navbar');
-// navlink = document.querySelectorAll('.nav-link');
+navbarToggler = document.querySelector('.navbar-toggler');
+navbar = document.querySelector('.navbar');
+navlink = document.querySelectorAll('.nav-link');
 
 // PRELOADER CODE 
 var overlay = document.getElementById("overlay");
@@ -26,7 +26,9 @@ window.addEventListener('load', function () {
 // navbarToggler.addEventListener('click', pinkNavbar);
 // navlink.addEventListener('click', pinkNavbar);
 // navlink.addEventListener('click', function () {
-//     console.log('I am clicked');
+//     this.navlink.forEach(i => {
+//         console.log('I am clicked');
+//     });
 // })
 // themeToggler.addEventListener('click', darkMode);
 
