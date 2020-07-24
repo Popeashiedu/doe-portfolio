@@ -70,7 +70,8 @@ p{
   color: var(--fc-secondary);
 }
 .active{
-  
+  background-color: #EB7188;
+  box-shadow: -2px 0px 1px 0px rgba(0,0,0,0.75);
 }
 
 /* NAVBAR ENDS  */
@@ -720,4 +721,11 @@ z-index: 99999;
 /* PINK NAVBAR  */
 .pink-navbar{
   background-color: var(--fc-secondary);
+  color: var(--fc-primary);
+}
+
+.pink-navlink{
+  color: var(--fc-primary);
+  display: block;
+  padding: .5rem 1rem;
 }

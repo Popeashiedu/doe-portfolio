@@ -9,6 +9,8 @@
     transform: scale(1.1);
     font-weight: bold;
     border-bottom: 1px solid #FF9B21;
+    background-color: inherit;
+    box-shadow: none;
   }
   .profile-pic{
     height: auto;
