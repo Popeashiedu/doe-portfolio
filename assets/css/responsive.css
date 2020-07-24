@@ -1,0 +1,111 @@
+/* MEDIA QUERIES FOR 576PX AND ABOVE */
+/* Only use the breakpoint necessary to your project */
+@media all and (max-width:425px) {
+}
+@media all and (min-width:576px) {}
+
+@media all and (min-width:768px) {
+  .active{
+    transform: scale(1.1);
+    font-weight: bold;
+    border-bottom: 1px solid #FF9B21;
+  }
+  .profile-pic{
+    height: auto;
+  }
+  .gallery-img{
+    grid-template-areas: 
+    "top-left middle middle top-right"
+    "middle-left middle middle middle-right"
+    "bottom-left bottom-bottom bottom-bottom bottom-right";
+  }
+      .desktop{
+        display: block;
+      }
+      .mobile{
+        display: none;
+      }
+      .resume-download{
+        writing-mode: tb-rl;
+        text-orientation: sideways-right;
+        transform: rotate(180deg);
+      }
+      .resume-download-btn{
+        color: var(--clr-bg-mobile);
+        background-color: var(--fc-secondary);
+        height: 100%;
+        transition: ease 0.8s all;
+       
+      }
+      .resume-download-btn:hover{
+        color: var(--fc-secondary);
+        background-color: #f6f2f1;
+        border: none;
+        box-shadow: var(--bs);
+       
+      }
+      .theme-toggler{
+        font-size: 36px;
+      }
+      #input2, #input3, #input4, #input5{
+        width: 95%;
+        margin-left: auto;
+      }
+      
+}
+
+@media all and (min-width:992px) {
+    body{
+        font-size: var(--fs-p);
+      }    
+      .icons{
+        font-size: 30px;
+      }
+     
+}
+
+@media all and (min-width:1200px) {
+  .hello{
+    font-family: var(--ff-tertiary);
+    font-size: 60px;
+  }
+  .intro{
+    font-family: var(--ff-primary);
+    font-size: 82.33px;
+    font-weight: bold;
+  }
+  .intro-p{
+    font-family: var(--ff-tertiary);
+    font-size: 40px;
+  }
+  .download-cv-btn{
+    font-size: 24px;
+  
+  }
+       /* CONTACT SECTION STARTS  */
+#contact .card-body{
+    padding:1.125rem;
+  }
+  #contact .card-body p{
+    font-size: 18px;
+  }
+  #contact .card-body .card-title{
+    font-size: 36px;
+  }
+  .contact-card{
+      padding: 1.125rem;
+  }
+
+  .contact-card-title{
+      font-size: 24px;
+  }
+  /* CONTACT SECTION ENDS  */
+}
+
+
+@media all and (min-width:1440px) { 
+    
+}
+
+@media all and (min-width:2560px) {
+}
